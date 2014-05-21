@@ -36,8 +36,8 @@ namespace Test
             System.Diagnostics.Debug.Assert(text.Equals(expectedOutput), "Output did not match expected result!");
 
             Console.WriteLine();
-            //Console.WriteLine("Finished test!  Press any key to exit..");
-            //Console.ReadKey();
+            Console.WriteLine("Finished test!  Press any key to exit..");
+            Console.ReadKey();
 		}
 	}
 }
